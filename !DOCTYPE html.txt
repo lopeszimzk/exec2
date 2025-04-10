@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exec - Camisetas Exclusivas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Exec</h1>
+            <p>Camisetas Exclusivas</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Estilo e Conforto em Cada Estampa</h2>
+        <p>Explore nossa coleção exclusiva de camisetas da marca Exec!</p>
+    </section>
+
+    <section class="produtos">
+        <h3>Nossas Camisetas</h3>
+        <div class="produto-item">
+            <img src="camiseta1.jpg" alt="Camiseta 1">
+            <p class="produto-nome">Camiseta Logo Exec</p>
+            <p class="produto-preco">R$ 99,90</p>
+            <button>Comprar</button>
+        </div>
+        <div class="produto-item">
+            <img src="camiseta2.jpg" alt="Camiseta 2">
+            <p class="produto-nome">Camiseta Minimalista</p>
+            <p class="produto-preco">R$ 79,90</p>
+            <button>Comprar</button>
+        </div>
+        <!-- Mais produtos podem ser adicionados aqui -->
+    </section>
+
+    <section class="sobre">
+        <h3>Sobre a Exec</h3>
+        <p>A Exec é uma marca jovem e moderna que traz o melhor em camisetas com estilo, conforto e qualidade. Nossa missão é entregar produtos exclusivos para quem valoriza design e autenticidade.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Exec Camisetas - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.produto-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.produto-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto-nome {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.produto-preco {
+    font-size: 16px;
+    color: #d9534f;
+}
+
+button {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.sobre {
+    background-color: #333;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #222;
+    color: white;
+}
